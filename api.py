@@ -21,6 +21,6 @@ def api(url, headers):
 if __name__ == '__main__':
 
 	#нужные переменные
-	url ="https://donatello.to/api/v1/me"
+	url ='https://donatello.to/api/v1/me'
 	headers={'X-Token':'token'}  #token from https://donatello.to/panel/doc-api
 	api(url, headers)
